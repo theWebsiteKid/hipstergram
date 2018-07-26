@@ -1,0 +1,82 @@
+/* Global Styles 
+********************/
+html, body {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+}
+
+/* Modal
+********************/
+.modal {
+    position: fixed;
+    z-index: 200;
+    background: #fff;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    justify-content: center;
+}
+
+.backdrop {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.open { 
+    display: block;
+}
+
+/* Sections
+********************/
+.logo {
+    text-align: center;
+}
+
+.image-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.img {
+    width: 25em;
+    height: 25em;
+} .img:hover {
+    transform: translate(2px, 2px);
+}
+
+.listItem {
+    margin: 1.0em;
+}
+
+.lightBoxImage {
+    width: 30em;
+    height: 30em;
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    padding: 0 2.5em;
+}
+
+.caption {
+    font-size: 1.5em;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 1.1em;
+}
